@@ -1,0 +1,236 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    background-color: aquamarine;
+}
+.splash{
+    height: 100vh;
+    width: 100%;/*
+    background-image: url("images/background-design.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(300px, auto);
+    }
+    .minor1{
+        position: absolute;
+    }
+    .minor2{
+        margin-left: 280pt;
+        margin-top: 60pt;
+        width: 70vw;
+        height: auto;
+    }
+.mid{
+    border:solid;
+    border-width: 1px;
+    background: transparent;
+    margin: 30pt;
+    height: calc(90vh - 30pt);
+    border-radius: 10pt;
+    box-shadow: 0 5px 10px 4px rgb(0, 0, 0.5);
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    float: left;
+    padding: 10pt;
+}
+#space{
+    width: 30vw;
+}
+.logo{
+    font-size: 24pt;
+    font-family: cursive;
+    font-weight: bold;
+}
+#about, #contact{
+    font-size: 12pt;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tags{
+    padding-top: 40pt;
+}
+.tags span{
+    font-size: 35pt;
+    font-weight: bold;
+}
+.tags button{
+    width: 120pt;
+    height: 30pt;
+    background: #000;
+    border: solid;
+    border-width: 1px;
+    border-radius: 12pt;
+    border: solid;
+    border-width: 1px;
+    border-color: #fff;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+.tags button:hover{
+    box-shadow: inset 0 100px 0 0 transparent;
+    border-color: rgb(0, 0, 0);
+    color: #000;
+    background-color: transparent;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    background-image: url('images/background-design.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.par{
+    width: 300pt;
+    height: 200pt;
+}
+.abs{
+    font-size: 20pt;
+}
+.sim{
+    margin-top: 10pt;
+}
+.on{
+    position: absolute;
+}
+.nav a{
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    border-color: #000;
+    color: #000;
+    padding: 5pt;
+    width: 20pt;
+    text-decoration: none;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+.nav a:hover{
+    box-shadow: inset 0 100px 0 0 #feffff;
+    color: #000;
+}
+
+
+
+
+
+
+
+.cat{
+    padding: 20pt;
+}
+.pricing, .email{
+    height: 100vh;
+    width: 100%;
+}
+#catalogue{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    grid-auto-rows: minmax(300px, auto);
+    border: solid;
+    border-width: 1px;
+    border-color:rgb(0, 0, 0);
+    border-radius: 3pt;
+}
+.col1{
+    background-color: transparent;
+    height: 350pt;
+    width: 400pt;
+}
+.col2{
+    background-color: #fff;
+    height: 350pt;
+    width: 400pt;  
+}
+.controls-tab{
+    padding-top: 20pt;
+    background-color: green;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controls ul{
+    list-style-type: none;
+}
+.controls ul li{
+    float: left;
+    padding: 10pt;
+    color: #fff;
+}
+
+.site-image{
+    background-image: url('images/insp3.PNG');
+    height: 300pt;
+    width: auto;
+}
+.order{
+    width: 160pt;
+    height: 30pt;
+    background: #000;
+    border: solid;
+    border-width: 1px;
+    border-radius: 12pt;
+    border: solid;
+    border-width: 1px;
+    border-color: #fff;
+    color: #fff;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+#terms{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.order:hover{
+box-shadow: inset 0 100px 0 0 #feffff;
+color: #000;
+border-color: #000;
+}
+#order-icon a{
+    text-decoration: none;
+}
+.price-ticker{
+    width: 80pt;
+    height: 30pt;
+    background: #000;
+    border: solid;
+    border-width: 1px;
+    border-radius: 0pt;
+    border: solid;
+    border-width: 1px;
+    border-color: #fff;
+    color: #fff;
+}
+
+
+#intro{
+    font-weight: 800;
+}
+#disclaimer{
+    font-size: 12px;
+}
+
+
+
+
