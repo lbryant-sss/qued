@@ -96,6 +96,17 @@ html, body{
     background-size: cover;
     background-attachment: fixed;
 }
+.layered{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+.cont{
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 450px;
+}
 .par{
     width: 300pt;
     height: 200pt;
@@ -180,9 +191,23 @@ html, body{
 
 .site-image{
     background-image: url('images/insp3.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300pt;
     width: auto;
+    animation-name: portfolio;
+    animation-duration: 23s;
+    animation-delay: 5500ms;
+    animation-iteration-count: infinite;
 }
+@keyframes portfolio {
+    0%{background-image: url('images/insp3.PNG');}
+    25%{background-image: url('images/insp4.PNG');}
+    50%{background-image: url('images/insp10.PNG');}
+    75%{background-image: url('images/insp.PNG');}
+    100%{background-image: url('images/insp2.PNG');}
+}
+
 .order{
     width: 160pt;
     height: 30pt;
